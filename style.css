@@ -103,6 +103,8 @@ body {
 .cert { margin-bottom: 10px; font-size: .88rem; }
 .cert .type { color: var(--red); font-weight: 700; display: block; }
 .cert .detail { padding-left: 12px; }
+.cert h3.type { font-size: inherit; }
+.cert .org { padding-left: 12px; }
 
 /* Mobile */
 @media (max-width: 700px) {
